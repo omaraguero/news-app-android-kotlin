@@ -24,7 +24,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.roa.newsapp.presentation.Dimension.MediumPadding2
-import com.roa.newsapp.presentation.Dimension.PageIndicatorWidth
 import com.roa.newsapp.presentation.common.NewsButton
 import com.roa.newsapp.presentation.common.NewsTextButton
 import com.roa.newsapp.presentation.onboarding.components.OnBoardingPage
