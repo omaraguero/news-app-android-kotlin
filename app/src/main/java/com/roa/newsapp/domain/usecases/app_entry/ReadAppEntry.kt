@@ -3,8 +3,9 @@ package com.roa.newsapp.domain.usecases.app_entry
 
 import com.roa.newsapp.domain.manager.LocalUserManager
 import kotlinx.coroutines.flow.Flow
+import javax.inject.Inject
 
-class ReadAppEntry(
+class ReadAppEntry @Inject constructor(
     private val localUserManger: LocalUserManager
 ) {
 

@@ -21,7 +21,6 @@ import com.roa.newsapp.R
 import com.roa.newsapp.presentation.Dimension.MediumPadding1
 import com.roa.newsapp.presentation.Dimension.MediumPadding2
 import com.roa.newsapp.presentation.onboarding.Page
-import com.roa.newsapp.presentation.onboarding.pages
 import com.roa.newsapp.ui.theme.NewsAppTheme
 
 @Composable

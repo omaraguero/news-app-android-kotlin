@@ -1,4 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="method" FQNAME="com.roa.newsapp.presentation.common.ArticlesListKt void ArticlesList(androidx.compose.ui.Modifier modifier, androidx.paging.compose.LazyPagingItems&lt;com.roa.newsapp.domain.model.Article&gt; articles, kotlin.jvm.functions.Function1&lt;? super com.roa.newsapp.domain.model.Article,kotlin.Unit&gt; onClick)" />
+      <entry_point TYPE="method" FQNAME="com.roa.newsapp.presentation.common.ArticlesListKt void ArticlesList(androidx.compose.ui.Modifier modifier, java.util.List&lt;com.roa.newsapp.domain.model.Article&gt; articles, kotlin.jvm.functions.Function1&lt;? super com.roa.newsapp.domain.model.Article,kotlin.Unit&gt; onClick)" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/roa/newsapp/presentation/common/ArticlesList.kt" />
+      <entry_point TYPE="method" FQNAME="com.roa.newsapp.presentation.details.DetailsScreenKt void DetailsScreen(com.roa.newsapp.domain.model.Article article, kotlin.jvm.functions.Function1&lt;? super com.roa.newsapp.presentation.details.DetailsEvent,kotlin.Unit&gt; event, com.roa.newsapp.util.UIComponent sideEffect, kotlin.jvm.functions.Function0&lt;kotlin.Unit&gt; navigateUp)" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/roa/newsapp/presentation/details/DetailsScreen.kt" />
+      <entry_point TYPE="method" FQNAME="com.roa.newsapp.presentation.home.HomeScreenKt void HomeScreen(androidx.paging.compose.LazyPagingItems&lt;com.roa.newsapp.domain.model.Article&gt; articles, com.roa.newsapp.presentation.home.HomeState state, kotlin.jvm.functions.Function1&lt;? super com.roa.newsapp.presentation.home.HomeEvent,kotlin.Unit&gt; event, kotlin.jvm.functions.Function0&lt;kotlin.Unit&gt; navigateToSearch, kotlin.jvm.functions.Function1&lt;? super com.roa.newsapp.domain.model.Article,kotlin.Unit&gt; navigateToDetails)" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/roa/newsapp/presentation/home/HomeScreen.kt" />
+      <entry_point TYPE="method" FQNAME="com.roa.newsapp.presentation.news_navigator.components.NewsBottomNavigationKt void NewsBottomNavigation(java.util.List&lt;com.roa.newsapp.presentation.news_navigator.components.BottomNavigationItem&gt; items, int selectedItem, kotlin.jvm.functions.Function1&lt;? super java.lang.Integer,kotlin.Unit&gt; onItemClick)" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/roa/newsapp/presentation/news_navigator/components/NewsBottomNavigation.kt" />
+      <entry_point TYPE="method" FQNAME="com.roa.newsapp.presentation.onboarding.OnBoardingScreenKt void OnBoardingScreen(kotlin.jvm.functions.Function1&lt;? super com.roa.newsapp.presentation.onboarding.OnBoardingEvent,kotlin.Unit&gt; onEvent)" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/roa/newsapp/presentation/onboarding/OnBoardingScreen.kt" />
+      <entry_point TYPE="method" FQNAME="com.roa.newsapp.presentation.common.SearchBarKt void SearchBar(androidx.compose.ui.Modifier modifier, java.lang.String text, boolean readOnly, kotlin.jvm.functions.Function0&lt;kotlin.Unit&gt; onClick, kotlin.jvm.functions.Function1&lt;? super java.lang.String,kotlin.Unit&gt; onValueChange, kotlin.jvm.functions.Function0&lt;kotlin.Unit&gt; onSearch)" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/roa/newsapp/presentation/common/SearchBar.kt" />
+      <entry_point TYPE="method" FQNAME="com.roa.newsapp.presentation.search.SearchScreenKt void SearchScreen(com.roa.newsapp.presentation.search.SearchState state, kotlin.jvm.functions.Function1&lt;? super com.roa.newsapp.presentation.search.SearchEvent,kotlin.Unit&gt; event, kotlin.jvm.functions.Function1&lt;? super com.roa.newsapp.domain.model.Article,kotlin.Unit&gt; navigateToDetails)" />
+      <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/roa/newsapp/presentation/search/SearchScreen.kt" />
+    </entry_points>
+    <pattern value="com.roa.newsapp.presentation.bookmark.BookmarkViewModel" />
+    <pattern value="com.roa.newsapp.presentation.bookmark.BookmarkViewModel" method="BookmarkViewModel" />
+    <pattern value="com.roa.newsapp.util.DataState" />
+    <pattern value="com.roa.newsapp.presentation.details.DetailsViewModel" />
+    <pattern value="com.roa.newsapp.presentation.details.DetailsViewModel" method="DetailsViewModel" />
+    <pattern value="com.roa.newsapp.util.UIComponent.Dialog" />
+    <pattern value="com.roa.newsapp.util.UIComponent.Dialog" method="Dialog" />
+    <pattern value="com.roa.newsapp.presentation.home.HomeViewModel" />
+    <pattern value="com.roa.newsapp.presentation.home.HomeViewModel" method="HomeViewModel" />
+    <pattern value="com.roa.newsapp.util.DataState.Loading" />
+    <pattern value="com.roa.newsapp.util.DataState.Loading" method="Loading" />
+    <pattern value="com.roa.newsapp.presentation.mainActivity.MainViewModel" />
+    <pattern value="com.roa.newsapp.presentation.mainActivity.MainViewModel" method="MainViewModel" />
+    <pattern value="com.roa.newsapp.util.UIComponent.None" />
+    <pattern value="com.roa.newsapp.util.UIComponent.None" method="None" />
+    <pattern value="com.roa.newsapp.presentation.onboarding.OnBoardingViewModel" />
+    <pattern value="com.roa.newsapp.presentation.onboarding.OnBoardingViewModel" method="OnBoardingViewModel" />
+    <pattern value="com.roa.newsapp.util.DataState.Response" />
+    <pattern value="com.roa.newsapp.util.DataState.Response" method="Response" />
+    <pattern value="com.roa.newsapp.presentation.search.SearchViewModel" />
+    <pattern value="com.roa.newsapp.presentation.search.SearchViewModel" method="SearchViewModel" />
+    <pattern value="com.roa.newsapp.util.DataState.Success" />
+    <pattern value="com.roa.newsapp.util.DataState.Success" method="Success" />
+    <pattern value="com.roa.newsapp.util.UIComponent" />
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

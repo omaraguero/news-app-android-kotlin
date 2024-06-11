@@ -3,6 +3,7 @@ package com.roa.newsapp.presentation
 import androidx.compose.ui.unit.dp
 
 object Dimension {
+
     val ExtraSmallPadding = 3.dp
     val ExtraSmallPadding2 = 6.dp
     val MediumPadding1 = 24.dp
@@ -15,4 +16,6 @@ object Dimension {
     val IconSize = 20.dp
 
     val ArticleCardSize = 96.dp
+
+    val ArticleImageHeight = 248.dp
 }
