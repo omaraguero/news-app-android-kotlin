@@ -8,11 +8,14 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.roa.newsapp.domain.model.Article
 import com.roa.newsapp.presentation.Dimension.MediumPadding1
 import com.roa.newsapp.presentation.common.ArticlesList
 import com.roa.newsapp.presentation.common.SearchBar
+
+
 
 @Composable
 fun SearchScreen(

@@ -3,12 +3,14 @@ package com.roa.newsapp.presentation.search
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.cachedIn
 import com.roa.newsapp.domain.usecases.news.SearchNews
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+
 
 @HiltViewModel
 class SearchViewModel @Inject constructor(
