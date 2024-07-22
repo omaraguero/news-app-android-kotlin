@@ -1,6 +1,6 @@
 # News App using Kotlin, for Android!
 Personal App to practice the next things:
-- Clean Architecture with MVVM and MVI
+- Clean Architecture with MVVM 
 - JetPack Compose
 - Paging 3
 - Retrofit
